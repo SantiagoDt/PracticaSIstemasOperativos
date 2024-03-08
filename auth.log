@@ -1,0 +1,553 @@
+Feb 11 00:17:01 UB-CARLOS CRON[123028]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 00:17:01 UB-CARLOS CRON[123028]: pam_unix(cron:session): session closed for user root
+Feb 11 01:17:01 UB-CARLOS CRON[123043]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 01:17:01 UB-CARLOS CRON[123043]: pam_unix(cron:session): session closed for user root
+Feb 11 02:17:01 UB-CARLOS CRON[123094]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 02:17:01 UB-CARLOS CRON[123094]: pam_unix(cron:session): session closed for user root
+Feb 11 03:10:01 UB-CARLOS CRON[123107]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 03:10:01 UB-CARLOS CRON[123107]: pam_unix(cron:session): session closed for user root
+Feb 11 03:17:01 UB-CARLOS CRON[123113]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 03:17:01 UB-CARLOS CRON[123113]: pam_unix(cron:session): session closed for user root
+Feb 11 03:30:01 UB-CARLOS CRON[123120]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 03:30:01 UB-CARLOS CRON[123120]: pam_unix(cron:session): session closed for user root
+Feb 11 04:17:01 UB-CARLOS CRON[123134]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 04:17:01 UB-CARLOS CRON[123134]: pam_unix(cron:session): session closed for user root
+Feb 11 05:17:01 UB-CARLOS CRON[123147]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 05:17:01 UB-CARLOS CRON[123147]: pam_unix(cron:session): session closed for user root
+Feb 11 06:17:01 UB-CARLOS CRON[123161]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 06:17:01 UB-CARLOS CRON[123161]: pam_unix(cron:session): session closed for user root
+Feb 11 06:25:01 UB-CARLOS CRON[123167]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 06:25:01 UB-CARLOS CRON[123167]: pam_unix(cron:session): session closed for user root
+Feb 11 06:47:01 UB-CARLOS CRON[124297]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 06:47:01 UB-CARLOS CRON[124297]: pam_unix(cron:session): session closed for user root
+Feb 11 06:47:19 UB-CARLOS pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Feb 11 06:47:19 UB-CARLOS pkexec[124748]: carlos: Executing command [USER=root] [TTY=unknown] [CWD=/home/carlos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Feb 11 06:50:06 UB-CARLOS pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Feb 11 06:50:06 UB-CARLOS pkexec[125405]: carlos: Executing command [USER=root] [TTY=unknown] [CWD=/home/carlos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Feb 11 07:17:01 UB-CARLOS CRON[125421]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 07:17:01 UB-CARLOS CRON[125421]: pam_unix(cron:session): session closed for user root
+Feb 11 07:30:01 UB-CARLOS CRON[125428]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 07:30:01 UB-CARLOS CRON[125428]: pam_unix(cron:session): session closed for user root
+Feb 11 08:17:01 UB-CARLOS CRON[125555]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 08:17:01 UB-CARLOS CRON[125555]: pam_unix(cron:session): session closed for user root
+Feb 11 08:30:01 UB-CARLOS CRON[125561]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 08:30:01 UB-CARLOS CRON[125561]: pam_unix(cron:session): session closed for user root
+Feb 11 09:17:01 UB-CARLOS CRON[125576]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 09:17:01 UB-CARLOS CRON[125576]: pam_unix(cron:session): session closed for user root
+Feb 11 09:30:01 UB-CARLOS CRON[125582]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 09:30:01 UB-CARLOS CRON[125582]: pam_unix(cron:session): session closed for user root
+Feb 11 10:17:01 UB-CARLOS CRON[125602]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 10:17:01 UB-CARLOS CRON[125602]: pam_unix(cron:session): session closed for user root
+Feb 11 10:30:01 UB-CARLOS CRON[125609]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 10:30:01 UB-CARLOS CRON[125609]: pam_unix(cron:session): session closed for user root
+Feb 11 10:35:01 UB-CARLOS CRON[125615]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 10:35:01 UB-CARLOS CRON[125615]: pam_unix(cron:session): session closed for user root
+Feb 11 11:17:01 UB-CARLOS CRON[125637]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 11:17:01 UB-CARLOS CRON[125637]: pam_unix(cron:session): session closed for user root
+Feb 11 11:30:01 UB-CARLOS CRON[125643]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 11:30:01 UB-CARLOS CRON[125643]: pam_unix(cron:session): session closed for user root
+Feb 11 12:17:01 UB-CARLOS CRON[125656]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 12:17:01 UB-CARLOS CRON[125656]: pam_unix(cron:session): session closed for user root
+Feb 11 12:30:01 UB-CARLOS CRON[125662]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 12:30:01 UB-CARLOS CRON[125662]: pam_unix(cron:session): session closed for user root
+Feb 11 13:17:01 UB-CARLOS CRON[125675]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 13:17:01 UB-CARLOS CRON[125675]: pam_unix(cron:session): session closed for user root
+Feb 11 13:30:01 UB-CARLOS CRON[125682]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 13:30:01 UB-CARLOS CRON[125682]: pam_unix(cron:session): session closed for user root
+Feb 11 14:17:01 UB-CARLOS CRON[125714]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 14:17:01 UB-CARLOS CRON[125714]: pam_unix(cron:session): session closed for user root
+Feb 11 14:30:01 UB-CARLOS CRON[125721]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 14:30:01 UB-CARLOS CRON[125721]: pam_unix(cron:session): session closed for user root
+Feb 11 15:17:01 UB-CARLOS CRON[125733]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 15:17:01 UB-CARLOS CRON[125733]: pam_unix(cron:session): session closed for user root
+Feb 11 15:23:06 UB-CARLOS pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Feb 11 15:23:06 UB-CARLOS pkexec[126653]: carlos: Executing command [USER=root] [TTY=unknown] [CWD=/home/carlos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Feb 11 15:30:01 UB-CARLOS CRON[126665]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 15:30:01 UB-CARLOS CRON[126665]: pam_unix(cron:session): session closed for user root
+Feb 11 16:17:01 UB-CARLOS CRON[126692]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 16:17:01 UB-CARLOS CRON[126692]: pam_unix(cron:session): session closed for user root
+Feb 11 16:30:01 UB-CARLOS CRON[126697]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 16:30:01 UB-CARLOS CRON[126697]: pam_unix(cron:session): session closed for user root
+Feb 11 17:17:01 UB-CARLOS CRON[126709]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 17:17:01 UB-CARLOS CRON[126709]: pam_unix(cron:session): session closed for user root
+Feb 11 17:30:01 UB-CARLOS CRON[126715]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 17:30:01 UB-CARLOS CRON[126715]: pam_unix(cron:session): session closed for user root
+Feb 11 18:17:01 UB-CARLOS CRON[126730]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 18:17:01 UB-CARLOS CRON[126730]: pam_unix(cron:session): session closed for user root
+Feb 11 18:30:01 UB-CARLOS CRON[126737]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 18:30:01 UB-CARLOS CRON[126737]: pam_unix(cron:session): session closed for user root
+Feb 11 19:17:01 UB-CARLOS CRON[126750]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 19:17:01 UB-CARLOS CRON[126750]: pam_unix(cron:session): session closed for user root
+Feb 11 19:30:01 UB-CARLOS CRON[126757]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 19:30:01 UB-CARLOS CRON[126757]: pam_unix(cron:session): session closed for user root
+Feb 11 20:17:01 UB-CARLOS CRON[126770]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 20:17:01 UB-CARLOS CRON[126770]: pam_unix(cron:session): session closed for user root
+Feb 11 20:30:01 UB-CARLOS CRON[126777]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 20:30:01 UB-CARLOS CRON[126777]: pam_unix(cron:session): session closed for user root
+Feb 11 21:17:01 UB-CARLOS CRON[126790]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 21:17:01 UB-CARLOS CRON[126790]: pam_unix(cron:session): session closed for user root
+Feb 11 21:30:01 UB-CARLOS CRON[126795]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 21:30:01 UB-CARLOS CRON[126795]: pam_unix(cron:session): session closed for user root
+Feb 11 22:17:01 UB-CARLOS CRON[126809]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 22:17:01 UB-CARLOS CRON[126809]: pam_unix(cron:session): session closed for user root
+Feb 11 22:30:01 UB-CARLOS CRON[126815]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 22:30:01 UB-CARLOS CRON[126815]: pam_unix(cron:session): session closed for user root
+Feb 11 23:17:01 UB-CARLOS CRON[126831]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 23:17:01 UB-CARLOS CRON[126831]: pam_unix(cron:session): session closed for user root
+Feb 11 23:30:01 UB-CARLOS CRON[126849]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 11 23:30:01 UB-CARLOS CRON[126849]: pam_unix(cron:session): session closed for user root
+Feb 12 00:17:01 UB-CARLOS CRON[126896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 00:17:01 UB-CARLOS CRON[126896]: pam_unix(cron:session): session closed for user root
+Feb 12 01:17:02 UB-CARLOS CRON[126914]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 01:17:02 UB-CARLOS CRON[126914]: pam_unix(cron:session): session closed for user root
+Feb 12 02:17:01 UB-CARLOS CRON[126935]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 02:17:01 UB-CARLOS CRON[126935]: pam_unix(cron:session): session closed for user root
+Feb 12 03:10:01 UB-CARLOS CRON[126952]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 03:10:01 UB-CARLOS CRON[126952]: pam_unix(cron:session): session closed for user root
+Feb 12 03:17:01 UB-CARLOS CRON[126958]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 03:17:01 UB-CARLOS CRON[126958]: pam_unix(cron:session): session closed for user root
+Feb 12 04:17:01 UB-CARLOS CRON[126972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 04:17:01 UB-CARLOS CRON[126972]: pam_unix(cron:session): session closed for user root
+Feb 12 05:11:06 UB-CARLOS pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Feb 12 05:11:06 UB-CARLOS pkexec[127883]: carlos: Executing command [USER=root] [TTY=unknown] [CWD=/home/carlos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Feb 12 05:17:01 UB-CARLOS CRON[127896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 05:17:01 UB-CARLOS CRON[127896]: pam_unix(cron:session): session closed for user root
+Feb 12 06:17:01 UB-CARLOS CRON[127910]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 06:17:01 UB-CARLOS CRON[127910]: pam_unix(cron:session): session closed for user root
+Feb 12 06:25:01 UB-CARLOS CRON[127917]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 06:25:01 UB-CARLOS CRON[127917]: pam_unix(cron:session): session closed for user root
+Feb 12 07:17:01 UB-CARLOS CRON[128007]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 07:17:01 UB-CARLOS CRON[128007]: pam_unix(cron:session): session closed for user root
+Feb 12 07:30:01 UB-CARLOS CRON[128013]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 07:30:01 UB-CARLOS CRON[128013]: pam_unix(cron:session): session closed for user root
+Feb 12 08:17:01 UB-CARLOS CRON[128074]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 08:17:01 UB-CARLOS CRON[128074]: pam_unix(cron:session): session closed for user root
+Feb 12 08:30:01 UB-CARLOS CRON[128079]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 08:30:01 UB-CARLOS CRON[128079]: pam_unix(cron:session): session closed for user root
+Feb 12 09:17:01 UB-CARLOS CRON[128151]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 09:17:01 UB-CARLOS CRON[128151]: pam_unix(cron:session): session closed for user root
+Feb 12 09:30:01 UB-CARLOS CRON[128157]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 09:30:01 UB-CARLOS CRON[128157]: pam_unix(cron:session): session closed for user root
+Feb 12 10:17:01 UB-CARLOS CRON[128179]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 10:17:01 UB-CARLOS CRON[128179]: pam_unix(cron:session): session closed for user root
+Feb 12 10:30:01 UB-CARLOS CRON[128186]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 10:30:01 UB-CARLOS CRON[128186]: pam_unix(cron:session): session closed for user root
+Feb 12 10:35:01 UB-CARLOS CRON[128193]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 10:35:01 UB-CARLOS CRON[128193]: pam_unix(cron:session): session closed for user root
+Feb 12 11:17:01 UB-CARLOS CRON[128212]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 11:17:01 UB-CARLOS CRON[128212]: pam_unix(cron:session): session closed for user root
+Feb 12 11:30:01 UB-CARLOS CRON[128219]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 11:30:01 UB-CARLOS CRON[128219]: pam_unix(cron:session): session closed for user root
+Feb 12 12:17:01 UB-CARLOS CRON[128383]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 12:17:01 UB-CARLOS CRON[128383]: pam_unix(cron:session): session closed for user root
+Feb 12 12:30:01 UB-CARLOS CRON[128390]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 12:30:01 UB-CARLOS CRON[128390]: pam_unix(cron:session): session closed for user root
+Feb 12 13:17:01 UB-CARLOS CRON[128432]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 13:17:01 UB-CARLOS CRON[128432]: pam_unix(cron:session): session closed for user root
+Feb 12 13:30:01 UB-CARLOS CRON[128438]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 12 13:30:01 UB-CARLOS CRON[128438]: pam_unix(cron:session): session closed for user root
+Feb 12 13:45:23 UB-CARLOS gdm-password]: gkr-pam: unlocked login keyring
+Feb 12 13:50:01 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/sbin/useradd luis
+Feb 12 13:50:01 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 12 13:50:01 UB-CARLOS useradd[128553]: new group: name=luis, GID=1001
+Feb 12 13:50:01 UB-CARLOS useradd[128553]: new user: name=luis, UID=1001, GID=1001, home=/home/luis, shell=/bin/sh, from=/dev/pts/0
+Feb 12 13:50:02 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 12 13:50:06 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/sbin/useradd maria
+Feb 12 13:50:06 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 12 13:50:06 UB-CARLOS useradd[128564]: new group: name=maria, GID=1002
+Feb 12 13:50:06 UB-CARLOS useradd[128564]: new user: name=maria, UID=1002, GID=1002, home=/home/maria, shell=/bin/sh, from=/dev/pts/0
+Feb 12 13:50:07 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 12 13:50:17 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/sbin/useradd antonio
+Feb 12 13:50:17 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 12 13:50:17 UB-CARLOS useradd[128573]: new group: name=antonio, GID=1003
+Feb 12 13:50:17 UB-CARLOS useradd[128573]: new user: name=antonio, UID=1003, GID=1003, home=/home/antonio, shell=/bin/sh, from=/dev/pts/0
+Feb 12 13:50:17 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 12 13:50:23 UB-CARLOS su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=pts/0 ruser=carlos rhost=  user=maria
+Feb 12 13:50:25 UB-CARLOS su: FAILED SU (to maria) carlos on pts/0
+Feb 12 13:50:28 UB-CARLOS passwd[128582]: passwd: can't view or modify password information for maria
+Feb 12 13:50:32 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/passwd maria
+Feb 12 13:50:32 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 12 13:50:37 UB-CARLOS passwd[128584]: pam_unix(passwd:chauthtok): password changed for maria
+Feb 12 13:50:37 UB-CARLOS passwd[128584]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Feb 12 13:50:37 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 12 13:50:42 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/passwd luis
+Feb 12 13:50:42 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 12 13:50:45 UB-CARLOS passwd[128587]: pam_unix(passwd:chauthtok): password changed for luis
+Feb 12 13:50:45 UB-CARLOS passwd[128587]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Feb 12 13:50:45 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 12 13:50:52 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/passwd antonio
+Feb 12 13:50:52 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 12 13:51:00 UB-CARLOS passwd[128589]: pam_unix(passwd:chauthtok): password changed for antonio
+Feb 12 13:51:00 UB-CARLOS passwd[128589]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Feb 12 13:51:00 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 12 13:51:06 UB-CARLOS su: (to maria) carlos on pts/0
+Feb 12 13:51:06 UB-CARLOS su: pam_unix(su:session): session opened for user maria by (uid=1000)
+Feb 12 13:51:08 UB-CARLOS su: pam_unix(su:session): session closed for user maria
+Feb 12 13:51:19 UB-CARLOS su: (to luis) carlos on pts/0
+Feb 12 13:51:19 UB-CARLOS su: pam_unix(su:session): session opened for user luis by (uid=1000)
+Feb 12 13:51:21 UB-CARLOS su: pam_unix(su:session): session closed for user luis
+Feb 12 13:53:47 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/apt install sshd-server
+Feb 12 13:53:47 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 12 13:53:48 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 12 13:53:53 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/apt install sshd
+Feb 12 13:53:53 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 12 13:53:54 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 12 13:53:58 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/apt install opensshd
+Feb 12 13:53:58 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 12 13:53:59 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 12 13:54:04 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+Feb 12 13:54:04 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 12 13:54:05 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 12 13:54:58 UB-CARLOS sshd[128664]: Accepted password for luis from 172.16.124.155 port 62105 ssh2
+Feb 12 13:54:58 UB-CARLOS sshd[128664]: pam_unix(sshd:session): session opened for user luis by (uid=0)
+Feb 12 13:54:58 UB-CARLOS systemd-logind[578]: New session 147 of user luis.
+Feb 12 13:54:58 UB-CARLOS systemd: pam_unix(systemd-user:session): session opened for user luis by (uid=0)
+Feb 12 13:55:09 UB-CARLOS sshd[128664]: pam_unix(sshd:session): session closed for user luis
+Feb 12 13:55:10 UB-CARLOS systemd-logind[578]: Session 147 logged out. Waiting for processes to exit.
+Feb 12 13:55:10 UB-CARLOS systemd-logind[578]: Removed session 147.
+Feb 12 13:55:40 UB-CARLOS sshd[128903]: Accepted password for maria from 172.16.124.155 port 62239 ssh2
+Feb 12 13:55:40 UB-CARLOS sshd[128903]: pam_unix(sshd:session): session opened for user maria by (uid=0)
+Feb 12 13:55:40 UB-CARLOS systemd-logind[578]: New session 149 of user maria.
+Feb 12 13:55:41 UB-CARLOS systemd: pam_unix(systemd-user:session): session opened for user maria by (uid=0)
+Feb 12 13:55:45 UB-CARLOS sshd[128903]: pam_unix(sshd:session): session closed for user maria
+Feb 12 13:55:45 UB-CARLOS systemd-logind[578]: Session 149 logged out. Waiting for processes to exit.
+Feb 12 13:55:45 UB-CARLOS systemd-logind[578]: Removed session 149.
+Feb 12 13:55:54 UB-CARLOS sshd[129092]: Accepted password for luis from 172.16.124.155 port 62282 ssh2
+Feb 12 13:55:54 UB-CARLOS sshd[129092]: pam_unix(sshd:session): session opened for user luis by (uid=0)
+Feb 12 13:55:54 UB-CARLOS systemd-logind[578]: New session 151 of user luis.
+Feb 12 13:55:54 UB-CARLOS systemd: pam_unix(systemd-user:session): session opened for user luis by (uid=0)
+Feb 12 13:56:47 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/nano /etc/rsyslog.d/50-default.conf
+Feb 12 13:56:47 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 12 13:56:55 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 12 13:57:57 UB-CARLOS dbus-daemon[129111]: [session uid=1001 pid=129111] Failed to activate service 'org.freedesktop.Tracker1': timed out (service_start_timeout=120000ms)
+Feb 12 13:59:58 UB-CARLOS dbus-daemon[129111]: [session uid=1001 pid=129111] Failed to activate service 'org.freedesktop.Tracker1': timed out (service_start_timeout=120000ms)
+Feb 12 14:02:00 UB-CARLOS dbus-daemon[129111]: [session uid=1001 pid=129111] Failed to activate service 'org.freedesktop.Tracker1': timed out (service_start_timeout=120000ms)
+Feb 12 14:04:01 UB-CARLOS dbus-daemon[129111]: [session uid=1001 pid=129111] Failed to activate service 'org.freedesktop.Tracker1': timed out (service_start_timeout=120000ms)
+Feb 14 13:27:06 UB-CARLOS gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=carlos
+Feb 14 13:27:11 UB-CARLOS gdm-password]: gkr-pam: unlocked login keyring
+Feb 14 13:27:17 UB-CARLOS sshd[129092]: pam_unix(sshd:session): session closed for user luis
+Feb 14 13:27:17 UB-CARLOS systemd-logind[578]: Session 151 logged out. Waiting for processes to exit.
+Feb 14 13:27:17 UB-CARLOS systemd-logind[578]: Removed session 151.
+Feb 14 13:28:08 UB-CARLOS pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Feb 14 13:28:08 UB-CARLOS pkexec[130508]: carlos: Executing command [USER=root] [TTY=unknown] [CWD=/home/carlos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Feb 14 13:28:18 UB-CARLOS sshd[130541]: Accepted password for carlos from 172.16.124.155 port 63677 ssh2
+Feb 14 13:28:18 UB-CARLOS sshd[130541]: pam_unix(sshd:session): session opened for user carlos by (uid=0)
+Feb 14 13:28:18 UB-CARLOS systemd-logind[578]: New session 153 of user carlos.
+Feb 14 13:28:22 UB-CARLOS sshd[130541]: pam_unix(sshd:session): session closed for user carlos
+Feb 14 13:28:22 UB-CARLOS systemd-logind[578]: Session 153 logged out. Waiting for processes to exit.
+Feb 14 13:28:22 UB-CARLOS systemd-logind[578]: Removed session 153.
+Feb 14 13:28:34 UB-CARLOS sshd[130700]: Accepted password for maria from 172.16.124.155 port 63714 ssh2
+Feb 14 13:28:34 UB-CARLOS sshd[130700]: pam_unix(sshd:session): session opened for user maria by (uid=0)
+Feb 14 13:28:35 UB-CARLOS systemd-logind[578]: New session 154 of user maria.
+Feb 14 13:28:35 UB-CARLOS systemd: pam_unix(systemd-user:session): session opened for user maria by (uid=0)
+Feb 14 13:28:39 UB-CARLOS sshd[130700]: pam_unix(sshd:session): session closed for user maria
+Feb 14 13:28:39 UB-CARLOS systemd-logind[578]: Session 154 logged out. Waiting for processes to exit.
+Feb 14 13:28:39 UB-CARLOS systemd-logind[578]: Removed session 154.
+Feb 14 13:29:07 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/sbin/groupadd proyecto
+Feb 14 13:29:07 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 14 13:29:07 UB-CARLOS groupadd[130916]: group added to /etc/group: name=proyecto, GID=1004
+Feb 14 13:29:07 UB-CARLOS groupadd[130916]: group added to /etc/gshadow: name=proyecto
+Feb 14 13:29:07 UB-CARLOS groupadd[130916]: new group: name=proyecto, GID=1004
+Feb 14 13:29:07 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 13:29:22 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/sbin/usermod carlos -aG proyecto
+Feb 14 13:29:22 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 14 13:29:22 UB-CARLOS usermod[130930]: add 'carlos' to group 'proyecto'
+Feb 14 13:29:22 UB-CARLOS usermod[130930]: add 'carlos' to shadow group 'proyecto'
+Feb 14 13:29:22 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 13:29:33 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/sbin/usermod luis -aG proyecto
+Feb 14 13:29:33 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 14 13:29:33 UB-CARLOS usermod[130938]: add 'luis' to group 'proyecto'
+Feb 14 13:29:33 UB-CARLOS usermod[130938]: add 'luis' to shadow group 'proyecto'
+Feb 14 13:29:33 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 13:29:46 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/sbin/usermod luis -aG sudo
+Feb 14 13:29:46 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 14 13:29:46 UB-CARLOS usermod[130946]: add 'luis' to group 'sudo'
+Feb 14 13:29:46 UB-CARLOS usermod[130946]: add 'luis' to shadow group 'sudo'
+Feb 14 13:29:46 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 13:30:01 UB-CARLOS CRON[130953]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 13:30:01 UB-CARLOS CRON[130953]: pam_unix(cron:session): session closed for user root
+Feb 14 13:32:54 UB-CARLOS su: (to maria) carlos on pts/0
+Feb 14 13:32:54 UB-CARLOS su: pam_unix(su:session): session opened for user maria by (uid=1000)
+Feb 14 13:32:56 UB-CARLOS su: pam_unix(su:session): session closed for user maria
+Feb 14 13:34:06 UB-CARLOS gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Feb 14 13:34:06 UB-CARLOS systemd-logind[578]: New session c2 of user gdm.
+Feb 14 13:34:06 UB-CARLOS systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Feb 14 13:34:13 UB-CARLOS polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.1039 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale es_ES.UTF-8)
+Feb 14 13:34:21 UB-CARLOS gdm-password]: gkr-pam: unable to locate daemon control file
+Feb 14 13:34:21 UB-CARLOS gdm-password]: gkr-pam: stashed password to try later in open session
+Feb 14 13:34:21 UB-CARLOS gdm-password]: pam_unix(gdm-password:session): session opened for user maria by (uid=0)
+Feb 14 13:34:21 UB-CARLOS systemd-logind[578]: New session 158 of user maria.
+Feb 14 13:34:21 UB-CARLOS systemd: pam_unix(systemd-user:session): session opened for user maria by (uid=0)
+Feb 14 13:34:22 UB-CARLOS gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Feb 14 13:34:23 UB-CARLOS gdm-password]: pam_unix(gdm-password:session): session closed for user maria
+Feb 14 13:34:23 UB-CARLOS systemd-logind[578]: Session 158 logged out. Waiting for processes to exit.
+Feb 14 13:34:23 UB-CARLOS systemd-logind[578]: Removed session 158.
+Feb 14 13:34:30 UB-CARLOS gdm-password]: gkr-pam: unable to locate daemon control file
+Feb 14 13:34:30 UB-CARLOS gdm-password]: gkr-pam: stashed password to try later in open session
+Feb 14 13:34:30 UB-CARLOS gdm-password]: pam_unix(gdm-password:session): session opened for user maria by (uid=0)
+Feb 14 13:34:30 UB-CARLOS systemd-logind[578]: New session 160 of user maria.
+Feb 14 13:34:30 UB-CARLOS gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Feb 14 13:34:30 UB-CARLOS gdm-password]: pam_unix(gdm-password:session): session closed for user maria
+Feb 14 13:34:30 UB-CARLOS systemd-logind[578]: Session 160 logged out. Waiting for processes to exit.
+Feb 14 13:34:30 UB-CARLOS systemd-logind[578]: Removed session 160.
+Feb 14 13:34:33 UB-CARLOS dbus-daemon[547]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Feb 14 13:34:35 UB-CARLOS gdm-password]: gkr-pam: unlocked login keyring
+Feb 14 13:34:45 UB-CARLOS gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Feb 14 13:34:45 UB-CARLOS systemd-logind[578]: Session c2 logged out. Waiting for processes to exit.
+Feb 14 13:34:46 UB-CARLOS systemd-logind[578]: Removed session c2.
+Feb 14 13:34:46 UB-CARLOS polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.1039, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale es_ES.UTF-8) (disconnected from bus)
+Feb 14 19:51:06 UB-CARLOS gdm-password]: gkr-pam: unlocked login keyring
+Feb 14 19:54:05 UB-CARLOS pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 19:54:05 UB-CARLOS pkexec[32763]: carlos: Executing command [USER=root] [TTY=unknown] [CWD=/home/carlos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Feb 14 19:54:40 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/nano /var/log/auth.log
+Feb 14 19:54:40 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 19:55:27 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 19:56:01 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/sbin/adduser maria
+Feb 14 19:56:01 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 19:56:02 UB-CARLOS groupadd[32868]: group added to /etc/group: name=maria, GID=1002
+Feb 14 19:56:02 UB-CARLOS groupadd[32868]: group added to /etc/gshadow: name=maria
+Feb 14 19:56:02 UB-CARLOS groupadd[32868]: new group: name=maria, GID=1002
+Feb 14 19:56:02 UB-CARLOS useradd[32874]: new user: name=maria, UID=1003, GID=1002, home=/home/maria, shell=/bin/bash, from=/dev/pts/1
+Feb 14 19:56:07 UB-CARLOS passwd[32884]: pam_unix(passwd:chauthtok): password changed for maria
+Feb 14 19:56:07 UB-CARLOS passwd[32884]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Feb 14 19:56:18 UB-CARLOS chfn[32885]: changed user 'maria' information
+Feb 14 19:56:18 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 19:56:25 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/sbin/adduser luis
+Feb 14 19:56:25 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 19:56:25 UB-CARLOS groupadd[32894]: group added to /etc/group: name=luis, GID=1003
+Feb 14 19:56:25 UB-CARLOS groupadd[32894]: group added to /etc/gshadow: name=luis
+Feb 14 19:56:25 UB-CARLOS groupadd[32894]: new group: name=luis, GID=1003
+Feb 14 19:56:25 UB-CARLOS useradd[32900]: new user: name=luis, UID=1010, GID=1003, home=/home/luis, shell=/bin/bash, from=/dev/pts/1
+Feb 14 19:56:29 UB-CARLOS passwd[32908]: pam_unix(passwd:chauthtok): password changed for luis
+Feb 14 19:56:29 UB-CARLOS passwd[32908]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Feb 14 19:56:30 UB-CARLOS chfn[32910]: changed user 'luis' information
+Feb 14 19:56:30 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 19:56:36 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/sbin/adduser antonio
+Feb 14 19:56:36 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 19:56:36 UB-CARLOS groupadd[32919]: group added to /etc/group: name=antonio, GID=1012
+Feb 14 19:56:36 UB-CARLOS groupadd[32919]: group added to /etc/gshadow: name=antonio
+Feb 14 19:56:36 UB-CARLOS groupadd[32919]: new group: name=antonio, GID=1012
+Feb 14 19:56:36 UB-CARLOS useradd[32925]: new user: name=antonio, UID=1011, GID=1012, home=/home/antonio, shell=/bin/bash, from=/dev/pts/1
+Feb 14 19:56:43 UB-CARLOS passwd[32933]: pam_unix(passwd:chauthtok): password changed for antonio
+Feb 14 19:56:43 UB-CARLOS passwd[32933]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Feb 14 19:56:45 UB-CARLOS chfn[32934]: changed user 'antonio' information
+Feb 14 19:56:47 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 19:57:06 UB-CARLOS su: (to maria) carlos on pts/0
+Feb 14 19:57:06 UB-CARLOS su: pam_unix(su:session): session opened for user maria(uid=1003) by (uid=1000)
+Feb 14 19:57:09 UB-CARLOS su: pam_unix(su:session): session closed for user maria
+Feb 14 20:00:01 UB-CARLOS CRON[33577]: pam_unix(cron:session): session opened for user smmsp(uid=129) by (uid=0)
+Feb 14 20:01:02 UB-CARLOS CRON[33577]: pam_unix(cron:session): session closed for user smmsp
+Feb 14 20:02:37 UB-CARLOS su: (to carlos) carlos on pts/0
+Feb 14 20:02:37 UB-CARLOS su: pam_unix(su:session): session opened for user carlos(uid=1000) by (uid=1000)
+Feb 14 20:02:40 UB-CARLOS su: pam_unix(su:session): session closed for user carlos
+Feb 14 20:03:26 UB-CARLOS sshd[33824]: Accepted password for carlos from 192.168.1.111 port 2438 ssh2
+Feb 14 20:03:26 UB-CARLOS sshd[33824]: pam_unix(sshd:session): session opened for user carlos(uid=1000) by (uid=0)
+Feb 14 20:03:26 UB-CARLOS systemd-logind[663]: New session 59 of user carlos.
+Feb 14 20:03:30 UB-CARLOS sshd[33824]: pam_unix(sshd:session): session closed for user carlos
+Feb 14 20:03:30 UB-CARLOS systemd-logind[663]: Session 59 logged out. Waiting for processes to exit.
+Feb 14 20:03:30 UB-CARLOS systemd-logind[663]: Removed session 59.
+Feb 14 20:04:02 UB-CARLOS sshd[33964]: Accepted password for maria from 192.168.1.111 port 2471 ssh2
+Feb 14 20:04:02 UB-CARLOS sshd[33964]: pam_unix(sshd:session): session opened for user maria(uid=1003) by (uid=0)
+Feb 14 20:04:02 UB-CARLOS systemd-logind[663]: New session 60 of user maria.
+Feb 14 20:04:02 UB-CARLOS systemd: pam_unix(systemd-user:session): session opened for user maria(uid=1003) by (uid=0)
+Feb 14 20:04:07 UB-CARLOS sshd[33964]: pam_unix(sshd:session): session closed for user maria
+Feb 14 20:04:08 UB-CARLOS systemd-logind[663]: Session 60 logged out. Waiting for processes to exit.
+Feb 14 20:04:08 UB-CARLOS systemd-logind[663]: Removed session 60.
+Feb 14 20:04:22 UB-CARLOS sshd[34133]: Accepted password for carlos from 192.168.1.111 port 2486 ssh2
+Feb 14 20:04:22 UB-CARLOS sshd[34133]: pam_unix(sshd:session): session opened for user carlos(uid=1000) by (uid=0)
+Feb 14 20:04:22 UB-CARLOS systemd-logind[663]: New session 62 of user carlos.
+Feb 14 20:04:32 UB-CARLOS dbus-daemon[633]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Feb 14 20:04:58 UB-CARLOS sshd[34133]: pam_unix(sshd:session): session closed for user carlos
+Feb 14 20:04:58 UB-CARLOS systemd-logind[663]: Session 62 logged out. Waiting for processes to exit.
+Feb 14 20:04:58 UB-CARLOS systemd-logind[663]: Removed session 62.
+Feb 14 20:05:12 UB-CARLOS sshd[34338]: Accepted password for maria from 192.168.1.111 port 2536 ssh2
+Feb 14 20:05:13 UB-CARLOS sshd[34338]: pam_unix(sshd:session): session opened for user maria(uid=1003) by (uid=0)
+Feb 14 20:05:13 UB-CARLOS systemd-logind[663]: New session 63 of user maria.
+Feb 14 20:05:13 UB-CARLOS systemd: pam_unix(systemd-user:session): session opened for user maria(uid=1003) by (uid=0)
+Feb 14 20:05:36 UB-CARLOS sshd[34338]: pam_unix(sshd:session): session closed for user maria
+Feb 14 20:05:36 UB-CARLOS systemd-logind[663]: Session 63 logged out. Waiting for processes to exit.
+Feb 14 20:05:36 UB-CARLOS systemd-logind[663]: Removed session 63.
+Feb 14 20:05:41 UB-CARLOS dbus-daemon[633]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Feb 14 20:05:46 UB-CARLOS sshd[34692]: Accepted password for maria from 192.168.1.111 port 2566 ssh2
+Feb 14 20:05:47 UB-CARLOS sshd[34692]: pam_unix(sshd:session): session opened for user maria(uid=1003) by (uid=0)
+Feb 14 20:05:47 UB-CARLOS systemd-logind[663]: New session 65 of user maria.
+Feb 14 20:07:14 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -u maria
+Feb 14 20:07:14 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:07:15 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:08:22 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/sbin/groupadd proyectos
+Feb 14 20:08:22 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:08:22 UB-CARLOS groupadd[34919]: group added to /etc/group: name=proyectos, GID=1013
+Feb 14 20:08:22 UB-CARLOS groupadd[34919]: group added to /etc/gshadow: name=proyectos
+Feb 14 20:08:22 UB-CARLOS groupadd[34919]: new group: name=proyectos, GID=1013
+Feb 14 20:08:22 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:08:28 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/sbin/groupadd empresa
+Feb 14 20:08:28 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:08:28 UB-CARLOS groupadd[34927]: group added to /etc/group: name=empresa, GID=1014
+Feb 14 20:08:28 UB-CARLOS groupadd[34927]: group added to /etc/gshadow: name=empresa
+Feb 14 20:08:28 UB-CARLOS groupadd[34927]: new group: name=empresa, GID=1014
+Feb 14 20:08:28 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:08:36 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/sbin/groupadd empleados
+Feb 14 20:08:36 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:08:36 UB-CARLOS groupadd[34935]: group added to /etc/group: name=empleados, GID=1015
+Feb 14 20:08:36 UB-CARLOS groupadd[34935]: group added to /etc/gshadow: name=empleados
+Feb 14 20:08:36 UB-CARLOS groupadd[34935]: new group: name=empleados, GID=1015
+Feb 14 20:08:36 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:09:01 UB-CARLOS CRON[34941]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Feb 14 20:09:02 UB-CARLOS CRON[34941]: pam_unix(cron:session): session closed for user root
+Feb 14 20:09:16 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/sbin/usermod maria -aG empresa empleados proyectos
+Feb 14 20:09:17 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:09:17 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:09:23 UB-CARLOS PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Feb 14 20:09:23 UB-CARLOS PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Feb 14 20:09:24 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/sbin/usermod maria -aG empresa
+Feb 14 20:09:24 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:09:24 UB-CARLOS usermod[35013]: add 'maria' to group 'empresa'
+Feb 14 20:09:24 UB-CARLOS usermod[35013]: add 'maria' to shadow group 'empresa'
+Feb 14 20:09:25 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:09:33 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/sbin/usermod maria -aG proyectos
+Feb 14 20:09:33 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:09:33 UB-CARLOS usermod[35443]: add 'maria' to group 'proyectos'
+Feb 14 20:09:33 UB-CARLOS usermod[35443]: add 'maria' to shadow group 'proyectos'
+Feb 14 20:09:34 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:09:43 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/sbin/usermod maria -aG empleados
+Feb 14 20:09:43 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:09:43 UB-CARLOS usermod[35459]: add 'maria' to group 'empleados'
+Feb 14 20:09:43 UB-CARLOS usermod[35459]: add 'maria' to shadow group 'empleados'
+Feb 14 20:09:44 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:09:48 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -u maria
+Feb 14 20:09:48 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:09:53 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:12:08 UB-CARLOS pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:12:08 UB-CARLOS pkexec[35594]: carlos: Executing command [USER=root] [TTY=unknown] [CWD=/home/carlos] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Feb 14 20:12:35 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -u maria
+Feb 14 20:12:35 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:12:35 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:12:54 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -u maria
+Feb 14 20:12:54 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:12:54 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:13:37 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -u maria
+Feb 14 20:13:37 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:13:38 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:14:35 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -u maria
+Feb 14 20:14:35 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:14:36 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:14:52 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -u maria
+Feb 14 20:14:52 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:14:52 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:15:25 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/du -sh /home/maria
+Feb 14 20:15:25 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:15:25 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:15:37 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/du -sh /home/maria
+Feb 14 20:15:37 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:15:37 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:15:53 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -u maria
+Feb 14 20:15:53 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:15:54 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:17:01 UB-CARLOS CRON[36047]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Feb 14 20:17:01 UB-CARLOS CRON[36047]: pam_unix(cron:session): session closed for user root
+Feb 14 20:17:12 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -u maria
+Feb 14 20:17:12 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:17:12 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:17:30 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -u maria
+Feb 14 20:17:30 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:17:31 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:17:40 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -u maria
+Feb 14 20:17:40 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:17:40 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:17:49 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -g maria
+Feb 14 20:17:49 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:17:50 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:17:56 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -g empresa
+Feb 14 20:17:56 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:17:56 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:19:32 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/sbin/usermod luis -aG proyectos
+Feb 14 20:19:32 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:19:32 UB-CARLOS usermod[36277]: add 'luis' to group 'proyectos'
+Feb 14 20:19:32 UB-CARLOS usermod[36277]: add 'luis' to shadow group 'proyectos'
+Feb 14 20:19:32 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:19:40 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -g proyectos
+Feb 14 20:19:40 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:19:40 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:20:01 UB-CARLOS CRON[36290]: pam_unix(cron:session): session opened for user smmsp(uid=129) by (uid=0)
+Feb 14 20:20:03 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh --login
+Feb 14 20:20:03 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:20:03 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:20:55 UB-CARLOS su: (to carlos) carlos on pts/0
+Feb 14 20:20:55 UB-CARLOS su: pam_unix(su:session): session opened for user carlos(uid=1000) by (uid=1000)
+Feb 14 20:20:57 UB-CARLOS su: pam_unix(su:session): session closed for user carlos
+Feb 14 20:20:59 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh --login
+Feb 14 20:20:59 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:20:59 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:21:01 UB-CARLOS CRON[36290]: pam_unix(cron:session): session closed for user smmsp
+Feb 14 20:22:57 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh --login
+Feb 14 20:22:57 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:22:58 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:23:26 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh --login
+Feb 14 20:23:26 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:23:27 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:24:51 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh --login
+Feb 14 20:24:51 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:24:51 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:25:00 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh --login
+Feb 14 20:25:00 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:25:00 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:25:50 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh --login
+Feb 14 20:25:50 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:25:50 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:26:19 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh --login
+Feb 14 20:26:19 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:26:19 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:29:58 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -u maria
+Feb 14 20:29:58 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:29:58 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:30:01 UB-CARLOS CRON[36848]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Feb 14 20:30:01 UB-CARLOS CRON[36848]: pam_unix(cron:session): session closed for user root
+Feb 14 20:30:44 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -u pedro
+Feb 14 20:30:44 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:30:45 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:31:42 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -u pepe
+Feb 14 20:31:42 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:31:42 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:32:18 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -e
+Feb 14 20:32:18 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:32:18 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:33:11 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -g pryectos
+Feb 14 20:33:11 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:33:11 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:33:16 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -g proyectos
+Feb 14 20:33:16 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:33:16 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:33:25 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -g empresa
+Feb 14 20:33:25 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:33:25 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:33:30 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -g empleados
+Feb 14 20:33:30 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:33:30 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:34:28 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -g
+Feb 14 20:34:28 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:34:28 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:34:58 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -u
+Feb 14 20:34:58 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:34:58 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:35:41 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -u
+Feb 14 20:35:41 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:35:41 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:36:57 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -g empresa
+Feb 14 20:36:57 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:36:57 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:37:18 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -g empresa
+Feb 14 20:37:18 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:37:18 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:37:24 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -g proyecto
+Feb 14 20:37:24 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:37:24 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:37:30 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -g empleados
+Feb 14 20:37:30 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:37:30 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:37:58 UB-CARLOS sudo:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./info_user.sh -g proyectos
+Feb 14 20:37:58 UB-CARLOS sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 14 20:37:58 UB-CARLOS sudo: pam_unix(sudo:session): session closed for user root
+Feb 14 20:39:02 UB-CARLOS CRON[37062]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Feb 14 20:39:02 UB-CARLOS CRON[37062]: pam_unix(cron:session): session closed for user root
+Feb 14 20:40:01 UB-CARLOS CRON[37115]: pam_unix(cron:session): session opened for user smmsp(uid=129) by (uid=0)
+Feb 14 20:41:01 UB-CARLOS CRON[37115]: pam_unix(cron:session): session closed for user smmsp

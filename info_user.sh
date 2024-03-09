@@ -27,8 +27,11 @@ then
   then
     echo "Las últimas conexiones REMOTAS son:"
     echo "-----------------------------------"
+    grep  "Accepted" auth.log | tail -5 | cut -d ' ' -f 1,2,9,11
+    echo -e "\n"
     echo "Las últimas conexiones LOCALES son:"
     echo "-----------------------------------"
+    grep -E "su: pam_unix\(su:session\): session opened |systemd-user:session\): session opened" auth.log | tail -5 | cut -d ' ' -f 1,2,3,11
   elif test "$1" == "--help"
   then
     help
@@ -55,6 +58,17 @@ then
       if  test -z "$STRING"
       then
         echo "El usuario $2 no existe en el sistema"
+      else
+        LOGGED=`who | grep $2`
+        if ! test -z "$LOGGED"
+        then
+          echo "El usuario $2 esta conectado actualmente"
+        else
+          echo "El usuario $2 no esta conectado"
+        fi
+
+
+
       fi
   elif test "$1" == "-g"
   then

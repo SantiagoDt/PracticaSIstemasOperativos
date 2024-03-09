@@ -67,7 +67,13 @@ then
           echo "El usuario $2 no esta conectado"
         fi
 
-
+        echo "Las últimas conexiones REMOTAS son:"
+        echo "-----------------------------------"
+        grep  "Accepted password for $2" /var/log/auth.log | tail -5 | cut -d ' ' -f 1,2,3,11
+        echo -e "\n"
+        echo "Las últimas conexiones LOCALES son:"
+        echo "-----------------------------------"
+       grep -E "su: pam_unix\(su:session\): session opened for user maria|systemd-user:session\): session opened for user $2" /var/log/auth.log | tail -5 | cut -d ' ' -f 1,2,3
 
       fi
   elif test "$1" == "-g"

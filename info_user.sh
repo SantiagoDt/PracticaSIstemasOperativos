@@ -1,5 +1,16 @@
 #!/bin/bash
 
+function help() {
+
+  cadena_help="info_user.sh [-u usuario][-g grupo][--login][--help]\n
+  \t -u usuario   Mostrar información sobre un usuario especificado
+  \t -g grupo     Mostrar usuarios asociados al grupo especificado
+  \t --login      Mostrar los 5 últimos usuarios que han accedido al sistema
+  \t --help       Mostrar ayuda"
+echo -e "$cadena_help"
+return;
+
+}
 if test $# -gt 2
 then
   #Parametros incorrectos pues solo se puede pasar dos parametros
@@ -20,12 +31,7 @@ then
     echo "-----------------------------------"
   elif test "$1" == "--help"
   then
-    cadena_help="info_user.sh [-u usuario][-g grupo][--login][--help]\n
-    \t -u usuario   Mostrar información sobre un usuario especificado
-    \t -g grupo     Mostrar usuarios asociados al grupo especificado
-    \t --login      Mostrar los 5 últimos usuarios que han accedido al sistema
-    \t --help       Mostrar ayuda"
-  echo -e "$cadena_help"
+    help
 elif test "$1" == "-u"
 then
   echo "Error:Se debe proporcionar el nombre de usuario con el parametro -u"
@@ -72,6 +78,5 @@ then
   fi
 
 else
-
-  echo "help"
+  help
 fi

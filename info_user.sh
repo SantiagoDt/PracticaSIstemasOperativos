@@ -78,6 +78,11 @@ then
        GRUPOS=`grep ":santi" /etc/group | tr ":" " " | cut -d ' ' -f 1 | tr '\n' ' '`
 
        echo "El usuario $2 pertenece a los siguientes grupos:$GRUPOS"
+       echo "Espacio ocupado por la carpeta "home"/$2 : `du /home/"$2" -sh | tr "/" " " | cut -d ' ' -f 1`"
+
+       NUM_FILES=`find /home/"$2" -size +1M | wc -l`
+       echo "Contiene $NUM_FILES ficheros mayores de 1MB en la carpeta "home/"$2"
+
       fi
   elif test "$1" == "-g"
   then

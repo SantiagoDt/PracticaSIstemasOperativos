@@ -75,6 +75,9 @@ then
         echo "-----------------------------------"
        grep -E "su: pam_unix\(su:session\): session opened for user maria|systemd-user:session\): session opened for user $2" /var/log/auth.log | tail -5 | cut -d ' ' -f 1,2,3
 
+       GRUPOS=`grep ":santi" /etc/group | tr ":" " " | cut -d ' ' -f 1 | tr '\n' ' '`
+
+       echo "El usuario $2 pertenece a los siguientes grupos:$GRUPOS"
       fi
   elif test "$1" == "-g"
   then

@@ -42,7 +42,7 @@ elif test "$1" == "-g"
 then
   echo "Se debe proporcionar el nombre del grupo con el parámetro -g"
   else
-    "Error:Opción no valida.Use --help para obtener ayuda."
+    echo "Error:Opción no valida.Use --help para obtener ayuda."
   fi
 
 elif test $# -eq 2

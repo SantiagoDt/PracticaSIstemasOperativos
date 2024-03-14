@@ -27,11 +27,11 @@ then
   then
     echo "Las últimas conexiones REMOTAS son:"
     echo "-----------------------------------"
-    grep  "Accepted" auth.log | tail -5 | cut -d ' ' -f 1,2,9,11
+    grep  "Accepted" /var/log/auth.log | tail -5 | cut -d ' ' -f 1,2,9,11
     echo -e "\n"
     echo "Las últimas conexiones LOCALES son:"
     echo "-----------------------------------"
-    grep -E "su: pam_unix\(su:session\): session opened |systemd-user:session\): session opened" auth.log | tail -5 | cut -d ' ' -f 1,2,3,11
+    grep -E "su: pam_unix\(su:session\): session opened |systemd-user:session\): session opened" /var/log/auth.log | tail -5 | cut -d ' ' -f 1,2,3,11
   elif test "$1" == "--help"
   then
     help
@@ -73,7 +73,7 @@ then
         echo -e "\n"
         echo "Las últimas conexiones LOCALES son:"
         echo "-----------------------------------"
-       grep -E "su: pam_unix\(su:session\): session opened for user maria|systemd-user:session\): session opened for user $2" /var/log/auth.log | tail -5 | cut -d ' ' -f 1,2,3
+       grep -E "su: pam_unix\(su:session\): session opened for user $2|systemd-user:session\): session opened for user $2" /var/log/auth.log | tail -5 | cut -d ' ' -f 1,2,3
 
        GRUPOS=`grep ":santi" /etc/group | tr ":" " " | cut -d ' ' -f 1 | tr '\n' ' '`
 

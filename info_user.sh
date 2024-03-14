@@ -16,6 +16,7 @@ then
   #Parametros incorrectos pues solo se puede pasar dos parametros
 
   echo "Error:El número de parametros pasados es incorrectos"
+  exit 1
 
 elif test $# -eq 1
 then
@@ -38,11 +39,14 @@ then
 elif test "$1" == "-u"
 then
   echo "Error:Se debe proporcionar el nombre de usuario con el parametro -u"
+  exit 2
 elif test "$1" == "-g"
 then
-  echo "Se debe proporcionar el nombre del grupo con el parámetro -g"
+  echo "Error:Se debe proporcionar el nombre del grupo con el parámetro -g"
+  exit 3
   else
-    echo "Error: Opción no valida. Uso "\$0 [-u][-g]" Use --help para obtener ayuda."]
+    echo "Error: Opción no valida.Use --help para obtener ayuda."
+    exit 4
   fi
 
 elif test $# -eq 2
@@ -102,7 +106,8 @@ then
     fi
 
   else
-    echo "El modificador solicitado no existe"
+    echo "Los parametros pasados no estan aceptados.Use --help para obtener ayuda"
+    exit 5
   fi
 
 else

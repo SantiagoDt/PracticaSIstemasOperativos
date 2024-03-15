@@ -7,15 +7,18 @@ function help() {
   \t -g grupo     Mostrar usuarios asociados al grupo especificado
   \t --login      Mostrar los 5 últimos usuarios que han accedido al sistema
   \t --help       Mostrar ayuda"
-echo -e "$cadena_help"
+echo -e "$cadena_help" | tee -a $OUTPUT
 return;
 
 }
+
+OUTPUT=fichero.txt
+
 if test $# -gt 2
 then
   #Parametros incorrectos pues solo se puede pasar dos parametros
 
-  echo "Error:El número de parametros pasados es incorrectos"
+  echo "Error:El número de parametros pasados es incorrectos"  | tee -a $OUTPUT
   exit 1
 
 elif test $# -eq 1
@@ -26,26 +29,26 @@ then
 
   if test "$1" == "--login"
   then
-    echo "Las últimas conexiones REMOTAS son:"
+    (echo "Las últimas conexiones REMOTAS son:"
     echo "-----------------------------------"
     grep  "Accepted" /var/log/auth.log | tail -5 | cut -d ' ' -f 1,2,9,11
     echo -e "\n"
     echo "Las últimas conexiones LOCALES son:"
     echo "-----------------------------------"
-    grep -E "su: pam_unix\(su:session\): session opened |systemd-user:session\): session opened" /var/log/auth.log | tail -5 | cut -d ' ' -f 1,2,3,11
+    grep -E "su: pam_unix\(su:session\): session opened |systemd-user:session\): session opened" /var/log/auth.log | tail -5 | cut -d ' ' -f 1,2,3,11) | tee -a $OUTPUT
   elif test "$1" == "--help"
   then
     help
 elif test "$1" == "-u"
 then
-  echo "Error:Se debe proporcionar el nombre de usuario con el parametro -u"
+  echo "Error:Se debe proporcionar el nombre de usuario con el parametro -u" | tee -a $OUTPUT
   exit 2
 elif test "$1" == "-g"
 then
-  echo "Error:Se debe proporcionar el nombre del grupo con el parámetro -g"
+  echo "Error:Se debe proporcionar el nombre del grupo con el parámetro -g"| tee -a $OUTPUT
   exit 3
   else
-    echo "Error: Opción no valida.Use --help para obtener ayuda."
+    echo "Error: Opción no valida.Use --help para obtener ayuda." | tee -a $OUTPUT
     exit 4
   fi
 
@@ -61,52 +64,52 @@ then
       STRING=`grep $2 /etc/passwd`
       if  test -z "$STRING"
       then
-        echo "El usuario $2 no existe en el sistema"
+        echo "El usuario $2 no existe en el sistema"  | tee -a $OUTPUT
       else
         LOGGED=`who | grep $2`
+        CONNECTED=""
         if ! test -z "$LOGGED"
         then
-          echo "El usuario $2 esta conectado actualmente"
+          CONNECTED="El usuario $2 esta conectado actualmente"
         else
-          echo "El usuario $2 no esta conectado"
+          CONNECTED="El usuario $2 no esta conectado"
         fi
 
+         GRUPOS=`grep ":santi" /etc/group | tr ":" " " | cut -d ' ' -f 1 | tr '\n' ' '`
+         NUM_FILES=`find /home/"$2" -size +1M | wc -l`
+
+        (echo "$CONNECTED"
         echo "Las últimas conexiones REMOTAS son:"
         echo "-----------------------------------"
         grep  "Accepted password for $2" /var/log/auth.log | tail -5 | cut -d ' ' -f 1,2,3,11
         echo -e "\n"
         echo "Las últimas conexiones LOCALES son:"
         echo "-----------------------------------"
-       grep -E "su: pam_unix\(su:session\): session opened for user $2|systemd-user:session\): session opened for user $2" /var/log/auth.log | tail -5 | cut -d ' ' -f 1,2,3
-
-       GRUPOS=`grep ":santi" /etc/group | tr ":" " " | cut -d ' ' -f 1 | tr '\n' ' '`
-
-       echo "El usuario $2 pertenece a los siguientes grupos:$GRUPOS"
-       echo "Espacio ocupado por la carpeta "home"/$2 : `du /home/"$2" -sh | tr "/" " " | cut -d ' ' -f 1`"
-
-       NUM_FILES=`find /home/"$2" -size +1M | wc -l`
-       echo "Contiene $NUM_FILES ficheros mayores de 1MB en la carpeta "home/"$2"
+        grep -E "su: pam_unix\(su:session\): session opened for user $2|systemd-user:session\): session opened for user $2" /var/log/auth.log | tail -5 | cut -d ' ' -f 1,2,3
+        echo "El usuario $2 pertenece a los siguientes grupos:$GRUPOS"
+        echo "Espacio ocupado por la carpeta "home"/$2 : `du /home/"$2" -sh | tr "/" " " | cut -d ' ' -f 1`"
+        echo "Contiene $NUM_FILES ficheros mayores de 1MB en la carpeta "home/"$2") | tee -a $OUTPUT
 
       fi
   elif test "$1" == "-g"
   then
       if test -z `grep "$2:x:" /etc/group`
       then
-        echo "El grupo $2 no existe en el sistema"
+        echo "El grupo $2 no existe en el sistema" | tee -a $OUTPUT
       else
         STRING_2=`grep "$2:x:" /etc/group | tr ":" " " | cut -d ' ' -f 4`
 
         if test -z "$STRING_2"
         then
-          echo "El grupo $2 no contiene usuarios"
+          echo "El grupo $2 no contiene usuarios" | tee -a $OUTPUT
         else
-          echo "Los usuarios del grupo $2 son : $STRING_2"
+          echo "Los usuarios del grupo $2 son : $STRING_2" | tee -a $OUTPUT
 
       fi
     fi
 
   else
-    echo "Los parametros pasados no estan aceptados.Use --help para obtener ayuda"
+    echo "Los parametros pasados no estan aceptados.Use --help para obtener ayuda" | tee -a $OUTPUT
     exit 5
   fi
 
